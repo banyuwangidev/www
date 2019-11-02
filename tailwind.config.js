@@ -13,7 +13,7 @@ module.exports = {
       transparent: "transparent",
       black: "#16191c",
       white: "#fff",
-      yellow: "fed32c",
+      yellow: "#fed32c",
       info: "#0e7Cf4",
       succes: "#27b861",
       error: "#Dc4b4b",
