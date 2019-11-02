@@ -1,7 +1,7 @@
 .st1 {
    stroke-dasharray: 1000;
    stroke-dashoffset: 1000;
-   animation: dash 3s linear alternate 1;
+   animation: dash 3s linear alternate 2;
 }
 
 @keyframes dash {
