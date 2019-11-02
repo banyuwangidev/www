@@ -2,4 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-@import './fonts.css'
+@import './fonts.css';
+@import "./animations.css";
+
+.btn-primary {
+   transition: box-shadow .3s cubic-bezier(.25, .25, .315, 1.35), transform .1s linear, -webkit-box-shadow .3s cubic-bezier(.25, .25, .315, 1.35), -webkit-transform .1s linear;
+}
+
+.btn-primary:hover {
+   transform: translateY(2px);
+}
+
+.btn-primary:active {
+   transform: translateY(0);
+}
